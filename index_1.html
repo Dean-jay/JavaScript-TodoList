@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/app.js"></script>
+    <title>JavaScript-TodoList</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="dateof">
+        Date of Today
+        <time class="date">2021/09/02</time>
+      </div>
+      <h1 class="planner__name">Everything Daily Planner</h1>
+    </header>
+
+    <main class="main">
+      <section class="schedule">
+        <span class="today__schedule">
+          Today's Schedule
+          <ul>
+            <li>
+              <p>
+                <time class="timeset">07:00</time>to
+                <time class="timeset">11:00</time>- Study time
+              </p>
+            </li>
+            <li>
+              <p>
+                <time class="timeset">11:00</time>to
+                <time class="timeset">13:00</time>- Gaming Time
+              </p>
+            </li>
+            <li>
+              <p>
+                <time class="timeset">00:00</time>to
+                <time class="timeset">00:00</time> ---Empty---
+              </p>
+            </li>
+          </ul>
+        </span>
+      </section>
+
+      <section class="wanna">
+        <span class="tobuy">
+          To Buy
+          <ul>
+            <li>
+              <input type="checkbox" class="checkbox" />
+              <p>Milk</p>
+            </li>
+            <li><input type="checkbox" class="checkbox" />Porkvelly</li>
+            <li><input type="checkbox" class="checkbox" />---Empty---</li>
+          </ul>
+        </span>
+        <span class="todo">
+          To Do
+          <ul>
+            <li><input type="checkbox" class="checkbox" />Coding-Study</li>
+            <li><input type="checkbox" class="checkbox" />---Empty---</li>
+          </ul>
+        </span>
+        <span class="maketime">
+          MAKE TIME FOR
+          <ul>
+            <li><input type="checkbox" class="checkbox" />For Happy</li>
+            <li><input type="checkbox" class="checkbox" />For Joy</li>
+            <li><input type="checkbox" class="checkbox" />For Growth</li>
+            <li><input type="checkbox" class="checkbox" />---Empty---</li>
+          </ul>
+        </span>
+      </section>
+
+      <section class="today__point">
+        <span class="focus">
+          Today's Point Focus
+          <textarea
+            class="point__focus"
+            name="Focus"
+            cols="30"
+            rows="5"
+            placeholder="Any type of your idea👍"
+          ></textarea>
+        </span>
+        <span class="note">
+          Note
+          <textarea
+            class="point__focus"
+            name="Focus"
+            cols="30"
+            rows="5"
+            placeholder="Today will be happy🥰"
+          ></textarea>
+        </span>
+        <span class="meal">
+          Meal of Today
+          <div class="mealbox">
+            <div class="today__meal">
+              <div class="mealtime">Breakfast</div>
+              <div class="kindof__meal">Gimbam</div>
+            </div>
+            <div class="today__meal">
+              <div class="mealtime">Lunch</div>
+              <div class="kindof__meal">Gimbam</div>
+            </div>
+            <div class="today__meal">
+              <div class="mealtime">Dinner</div>
+              <div class="kindof__meal">Gimbam</div>
+            </div>
+          </div>
+        </span>
+      </section>
+    </main>
+  </body>
+</html>

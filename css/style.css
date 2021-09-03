@@ -67,11 +67,16 @@ ul {
 }
 
 li {
-  margin: 2px;
+  margin-top: 1em;
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.task {
+  margin-left: 5px;
+  width: 15em;
 }
 
 /*span*/
@@ -80,11 +85,6 @@ span {
   display: flex;
   flex-direction: column;
   text-align: center;
-}
-
-.text {
-  margin-left: 5px;
-  background-color: green;
 }
 
 .input__text {
@@ -100,12 +100,23 @@ span {
   color: #888;
 }
 
-.button {
+button {
   color: --btn--text-color;
   background-color: Transparent;
   background-repeat: no-repeat;
-  border: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
   cursor: pointer;
   overflow: hidden;
   padding: 10px;
+}
+
+.delete {
+  float: left;
+  margin-left: 5px;
+}
+
+.edit {
+  align-self: center;
+  margin-left: 5px;
 }

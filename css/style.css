@@ -1,0 +1,111 @@
+/*
+The base of width : 600px
+The maxium of width : 800px
+Because of list ganna placed on too left
+
+*/
+
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*ROOT*/
+:root {
+  --headWordColor: white;
+  --mainWordColor: black;
+  --body--width: 100vw;
+  --head--hight: 15vh;
+  --main--hight: 75vh;
+  --p--fontsize: 8px;
+  --btn--text-color: #888;
+}
+
+/*BODY*/
+body {
+  width: --body--width;
+}
+
+/*HEADER*/
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: --head--hight;
+}
+.dateof {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*MAIN*/
+main {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*section*/
+section {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+/*UL*/
+ul {
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  margin: 2px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*span*/
+span {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.text {
+  margin-left: 5px;
+  background-color: green;
+}
+
+.input__text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 18px;
+  padding: 10px;
+  border: 3px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+}
+
+.button {
+  color: --btn--text-color;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 10px;
+}
